@@ -25,7 +25,13 @@ public class ComparatorWithCustomType {
         s.add(new Students(4,25));
         s.add(new Students(5,94));
 
-        System.out.println(s);
 
+
+       Collections.sort(s,(s1,s2)->
+               {
+                   return s1.marks>s2.marks?-1:s1.marks>s2.marks?1:0;
+               });
+
+        System.out.println(s);
     }
 }
