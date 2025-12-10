@@ -12,7 +12,7 @@ class Comp implements Comparator<Integer>
 
 
 }
-public class Comparatorr {
+public class Comparator1 {
     public static void main(String[] args) {
         List<Integer> values=new ArrayList<>();
         values.add(109);
